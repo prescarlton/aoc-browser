@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    width: 30%;
+
+    * {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-left {
+        text-align: right;
+        border-right: 1px solid #ccc;
+        width: 60%;
+        padding-right: 1rem;
+    }
+    &-right {
+        font-size: 1.25rem;
+        padding-left:1rem;
+    }
+}
